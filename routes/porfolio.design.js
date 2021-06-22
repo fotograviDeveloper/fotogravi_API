@@ -5,11 +5,11 @@ const ilustracion = require ("../database/ilustracion.json");
 const painting = require ("../database/painting.json");
 const paintingImagenes = require ("../database/painting.Img.json");
 const ilustracionIMGS = require("../database/Ilustracion.Img.json")
-const cors = require("cors")
+//sconst cors = require("cors")
 
 
-var ListaBlanca = ("http://localhost:3000" || "http://localhost:3001")
-var corsOptions = {
+//var ListaBlanca = ("http://localhost:3000" || "http://localhost:3001")
+/*var corsOptions = {
     origin: function(origin, callback){
      
             if(ListaBlanca.indexOf(origin) !== -1){
@@ -20,8 +20,8 @@ var corsOptions = {
         }
     }
 
-
-router.get('/api/Design',  cors(corsOptions), (req, res) =>{
+*/
+router.get('/api/Design', (req, res) =>{
 
 res.json( pDesign)
     
