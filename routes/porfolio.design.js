@@ -5,9 +5,23 @@ const ilustracion = require ("../database/ilustracion.json");
 const painting = require ("../database/painting.json");
 const paintingImagenes = require ("../database/painting.Img.json");
 const ilustracionIMGS = require("../database/Ilustracion.Img.json")
+const cors = require("cors")
 
 
-router.get('/api/Design', (req, res) =>{
+var ListaBlanca = ("http://localhost:3000")
+var corsOptions = {
+    origin: function(origin, callback){
+     
+            if(ListaBlanca.indexOf(origin) !== -1){
+                callback(null, true);
+            }else{
+                callback(new Error('not alloned by cors'))
+            }
+        }
+    }
+
+
+router.get('/api/Design',  cors(corsOptions), (req, res) =>{
 
 res.json( pDesign)
     
