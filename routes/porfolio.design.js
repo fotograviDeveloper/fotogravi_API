@@ -8,7 +8,7 @@ const ilustracionIMGS = require("../database/Ilustracion.Img.json")
 const cors = require("cors")
 
 
-var ListaBlanca = ("http://localhost:3000")
+var ListaBlanca = ("http://localhost:3000" || "http://localhost:3001")
 var corsOptions = {
     origin: function(origin, callback){
      
