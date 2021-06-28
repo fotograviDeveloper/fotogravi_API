@@ -1,10 +1,8 @@
-const { Router } = require("express")
+const { Router, response } = require("express")
 const router = Router()
-const pDesign = require ("../database/portafolioDesign.json");
-const ilustracion = require ("../database/ilustracion.json");
-const painting = require ("../database/painting.json");
-const paintingImagenes = require ("../database/painting.Img.json");
-const ilustracionIMGS = require("../database/Ilustracion.Img.json")
+const potrafolios =require("../database/portafolios.json")
+const pDesign = require("../database/portafolioDesign.json");
+
 //sconst cors = require("cors")
 
 
@@ -21,29 +19,43 @@ const ilustracionIMGS = require("../database/Ilustracion.Img.json")
     }
 
 */
-router.get('/api/Design', (req, res) =>{
+//rutas portafolios branding
+router.get('/api/Design/Branding', async (req, res) => {
+    res.json(potrafolios)
+   });
 
-res.json( pDesign)
+
+
+
+
+
+//rutas de otros portafolios
+router.get('/api/Design', async (req, res) => {
+
+ res.json(pDesign)
     
+
+
+});
+//rutas para ilustracion
+router.get("/api/Design/ilustration", async (req, res) => {
+    res.json(pDesign[1]['contenido'][0])
 })
-router.get("/api/Design/ilustration", (req, res) =>{
-    res.json(ilustracion)
-})
-router.get("/api/Design/ilustration/imagenes", (req, res) =>{
-    res.json(ilustracionIMGS.Imagenes)
+router.get("/api/Design/ilustration/catalogo", (req, res) => {
+    res.json(pDesign[1]['contenido'][0]['catalogo'])
 })
 
-  
-router.get("/api/Design/mattepainting", (req, res) =>{
-res.json(painting)
+//rutas para matte painting
+router.get("/api/Design/mattepainting", (req, res) => {
+    res.json(pDesign[0]['contenido'][0])
 })
-router.get("/api/Design/mattepainting/imagenes", (req, res) =>{
-    res.json(paintingImagenes.Imagenes)
+//ruta secundaria que mustra las imagenes de este portafolio
+router.get('/api/Design/mattepainting/catalogo', async (req, res) => {
+    res.json(pDesign[0]['contenido'][0]['catalogo'])
+    
     })
 
-    router.get("/api/Design/web-design", (req, res) =>{
-        res.send("ERROR 404 ARCHIVO NO ENCONTRADO")
-        res.send("holis")  
-        })
-    
+
+
+
 module.exports = router;
