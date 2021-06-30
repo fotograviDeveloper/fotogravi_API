@@ -2,11 +2,10 @@ const express = require("express");
 const app = express();
 const cors = require("cors")
 const morgan = require ('morgan')
-const { database } = require("./database/keys.js");
 const mysql = require ("mysql")
 const myConnection = require("express-myconnection");
-
-
+const { database } = require("./database/keys.js");
+const {sendControler} = require ("./controler/sendControler")
 //seting 
 app.set('appName', "FotograviAPI");
 app.set('port', process.env.PORT || 3001)
@@ -25,6 +24,7 @@ app.use(express.json(myConnection));
 app.use(require('./routes/index'));
 app.use(require('./routes/porfolio.design'));
 app.use(require('./routes/TrabajosPortafolio'));
+app.use(require('./routes/email'));
 //static files
 
 

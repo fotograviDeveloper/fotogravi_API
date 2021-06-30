@@ -32,10 +32,6 @@ console.log(newImg);
 res.send("recivido prro todo oki")
 
 }) 
-router.post('/Contacto/send', function (req, res) {
-  res.json(req.body) 
-  console.log(req.body) 
-});
 
 
 
