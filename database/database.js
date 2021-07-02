@@ -20,7 +20,7 @@ pool.getConnection((err, conection) => {
     }
 
     if (conection) conection.release();
-    console.log("DB is connected hellow modafaka");
+    console.log("DB is connected");
     return;
 });
 //promisify pool querys

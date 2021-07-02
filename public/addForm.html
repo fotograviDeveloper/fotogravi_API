@@ -1,52 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>add portafolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body><div class="container">
-    <form method="POST">
-       
+  <body>
+    <div class="container">
+      <form method="POST">
         <div class="form-group col-md-6">
-            <label for="inputAddress">titulo</label>
-            <input type="text" class="form-control" id="titulo"  name="titulo">
+          <label for="inputAddress">proyecto</label>
+          <input
+            type="text"
+            class="form-control"
+            id="titulo"
+            placeholder="nombre deol proyecto"
+            name="proyecto"
+          />
+          <input
+            type="text"
+            class="form-control"
+            id="imgmin"
+            placeholder="imgmin agrega imagen"
+            name="imgmin"
+          />
+          <input
+            type="text"
+            class="form-control"
+            id="desc"
+            placeholder="descripcion brebe"
+            name="desc"
+          />
+          <input
+            type="text"
+            class="form-control"
+            id="link"
+            placeholder="link del front end"
+            name="link"
+          />
         </div>
+
+        <!--contenido -->
         <div class="form-group">
-            <label for="inputAddress2">link</label>
-            <input type="text" class="form-control" id="link" name="link" >
-        </div>
-        <div class="form-row">
-            <div class="form-group ">
-                <label for="inputCity">imgLink</label>
-                <input type="text" class="form-control" id="imgLink" name="imgLink">
+          <label for="inputAddress2">contenido del portafolio</label>
+          <input
+            type="text"
+            class="form-control"
+            id="nombre"
+            placeholder="nombre del proyecto"
+            name="nombreDProyecto"
+          />
+          <input
+            type="text"
+            class="form-control"
+            id="imgPortada"
+            placeholder="agrega una portada"
+            name="imgPortada"
+          />
+          <input
+            type="text"
+            class="form-control"
+            id="textALT"
+            placeholder="coloca un texto Alterno"
+            name="textoALT"
+          />
+          <textarea
+            type="text"
+            class="form-control"
+            id="descripcionDProyecto"
+            placeholder="describe el proyecto"
+            name="descripcionProyecto"
+          ></textarea>
+          <input
+          type="text"
+          class="form-control"
+          id="imgBriefing"
+          placeholder="agrega una imagen del Briefing"
+          name="imgBriefing"
+        /> 
+        <textarea
+            type="text"
+            class="form-control"
+            id="Briefing"
+            placeholder="describe el Briefing"
+            name="briefTXT"
+          ></textarea>
+          <textarea
+          type="text"
+          class="form-control"
+          id="descripcionDproblema"
+          placeholder="cual fue el problema"
+          name="problema"
+
+        ></textarea>
+        <textarea
+            type="text"
+            class="form-control"
+            id="o"
+            placeholder="esta fue mi propuesta de diseño"
+            name="propuestaDiseño"
+          ></textarea>
+          <input
+        type="text"
+        class="form-control"
+        id="imgLogo"
+        placeholder="agrega la imagen del logo"
+        name="imgLogo"
+      /> 
+          <!--colores-->
+          <div class="container form-row">
+            <div class="form-group">
+                  <label for="inputCity">colores</label>
+              <input
+                type="text"
+                placeholder="ejem: #fffff"
+                class="form"
+                id="color1"
+                name="color1"
+              />
+              <input
+              type="text"
+              class="form"
+              id="color2"
+              name="color2"
+            />
+            <input
+            type="text"
+            class="form"
+            id="color3"
+            name="color3"
+          />
             </div>
+          </div>
+        </div>
+     
+      
+          <input
+            type="text"
+            class="form-control"
+            id="descripcion"
+            name="tipografia"
+            placeholder="cual tipografia use"
+          />
+          
+          <input
+            type="text"
+            class="form-control"
+            id="descripcion"
+            name="imgVarLogo"
+            placeholder="agremga las variaciones del logo"
+          />
           
         
         </div>
+        <div class="container form-group col-md-6">
+    
+        <h3>agrega iconos</h3>
         <div class="form-group col-md-6">
-            <label for="inputPassword4">descripcion</label>
-            <input type="text" class="form-control" id="descripcion" name="descripcion" >
-        </div>
-        <div class="form-group col-md-6">
-            <label for="inputPassword4">alt</label>
-            <input type="text" class="form-control" id="alt" name="alt" >
-        </div>
-      <h3>agrega iconos</h3>
-        <div class="form-group col-md-6">
-            <label for="inputPassword4">icono</label>
-            <input type="text" class="form-control" id="alt" name="alt" >
+        
+          <input type="text" class="form-control" placeholder="icono1" id="alt" name="icono1" />
+          <input type="text" class="form-control" placeholder="icono2" id="alt" name="icono2" />
+         
         </div>
         <button type="submit" class="btn btn-primary">enviar</button>
-    </form></div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-</body>
-
+      </form>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

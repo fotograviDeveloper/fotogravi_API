@@ -13,28 +13,34 @@ router.get('/', function (req, res) {
 router.get('/add-portafolio', function (req, res) {
 
   res.sendFile(path.join(__dirname + './../public/addForm.html'))
- 
+
 });
-router.post('/add-portafolio', async(req, res) =>{
+router.post('/add-portafolio', async (req, res) => {
 
-const {titulo, link, imgLink, descripcion, alt} =req.body
-let newImg = {
- titulo,
-  link,
-  imgLink,
-  descripcion,
-  alt
-};
-await pool.query('INSERT INTO portafolios SET ? ', newImg);
- 
-
-console.log(newImg);
-res.send("recivido prro todo oki")
-
-}) 
+  const { titulo, link, imgLink, descripcion, alt } = req.body
+  let newImg = {
+    titulo,
+    link,
+    imgLink,
+    descripcion,
+    alt
+  };
+  await pool.query('INSERT INTO portafolios SET ? ', newImg);
 
 
+  console.log(newImg);
+  res.send("recivido prro todo oki")
 
+})
+
+
+
+
+router.get('/test', async (req, res) => {
+  let date = new Date()
+  let consulta = await pool.query("SELECT * FROM portafolios WHERE id = 1");
+res.json(consulta)
+})
 
 
 module.exports = router;

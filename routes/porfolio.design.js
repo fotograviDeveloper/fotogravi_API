@@ -1,8 +1,8 @@
-const { Router, response } = require("express")
+const { Router, status } = require("express")
 const router = Router()
 const potrafolios =require("../database/portafolios.json")
 const pDesign = require("../database/portafolioDesign.json");
-
+const pool = require("../database/database");
 //sconst cors = require("cors")
 
 
@@ -20,14 +20,29 @@ const pDesign = require("../database/portafolioDesign.json");
 
 */
 //rutas portafolios branding
-router.get('/api/Design/Branding', async (req, res) => {
-    res.json(potrafolios)
+router.get('/api/Design/branding', async (req, res) => {
+let proyecto = await pool.query('SELECT * FROM portafolios ')
+
+  res.json(proyecto)
+
    });
 
-
-
-
-
+   router.get('/api/Design/portafolio/fotogravi/contenido', async (req, res) => {
+    let contenido = await pool.query('SELECT * FROM contenido where id = 3 ')
+    
+      res.json(contenido) 
+    
+  });
+    
+  router.get('/api/Design/portafolio/soldare/contenido', async (req, res) => {
+    let contenido = await pool.query('SELECT * FROM contenido where id = 4 ')
+    
+      res.json(contenido)
+    
+  });
+    
+///portafolio/Design/branding/soldare
+///portafolio/Design/branding/fotogravi
 
 //rutas de otros portafolios
 router.get('/api/Design', async (req, res) => {

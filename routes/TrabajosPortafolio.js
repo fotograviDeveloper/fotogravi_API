@@ -3,9 +3,9 @@
 
 const { Router } = require("express");
 const router = Router();
+const pool = require("../database/database");
 
-
-router.get("/portafolios/trabajos", function(req, res){
+router.get("/portafolios/trabajos", async function(req, res){
     res.send("holis")
 })
 
