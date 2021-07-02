@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ecc9f607.chunk.css",
+    "main.js": "/static/js/main.99011ed6.chunk.js",
+    "main.js.map": "/static/js/main.99011ed6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.301d8cea.js",
+    "runtime-main.js.map": "/static/js/runtime-main.301d8cea.js.map",
+    "static/css/2.ad581902.chunk.css": "/static/css/2.ad581902.chunk.css",
+    "static/js/2.447e3890.chunk.js": "/static/js/2.447e3890.chunk.js",
+    "static/js/2.447e3890.chunk.js.map": "/static/js/2.447e3890.chunk.js.map",
+    "static/css/3.fe7facc5.chunk.css": "/static/css/3.fe7facc5.chunk.css",
+    "static/js/3.73eaddff.chunk.js": "/static/js/3.73eaddff.chunk.js",
+    "static/js/3.73eaddff.chunk.js.map": "/static/js/3.73eaddff.chunk.js.map",
+    "static/js/4.ba6f613c.chunk.js": "/static/js/4.ba6f613c.chunk.js",
+    "static/js/4.ba6f613c.chunk.js.map": "/static/js/4.ba6f613c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ad581902.chunk.css.map": "/static/css/2.ad581902.chunk.css.map",
+    "static/css/3.fe7facc5.chunk.css.map": "/static/css/3.fe7facc5.chunk.css.map",
+    "static/css/main.ecc9f607.chunk.css.map": "/static/css/main.ecc9f607.chunk.css.map",
+    "static/js/2.447e3890.chunk.js.LICENSE.txt": "/static/js/2.447e3890.chunk.js.LICENSE.txt",
+    "static/media/contactoSeccion.css": "/static/media/Fondo-contacto.76f10855.png",
+    "static/media/Logo2.0075d69a.png": "/static/media/Logo2.0075d69a.png",
+    "static/media/Raul_Garces1.5c6a0099.png": "/static/media/Raul_Garces1.5c6a0099.png",
+    "static/media/Textarea.d443f85c.svg": "/static/media/Textarea.d443f85c.svg",
+    "static/media/curriculum vitae.e8ec979f.pdf": "/static/media/curriculum vitae.e8ec979f.pdf",
+    "static/media/welcome.css": "/static/media/fondo-inicio.288c9b9b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.301d8cea.js",
+    "static/css/2.ad581902.chunk.css",
+    "static/js/2.447e3890.chunk.js",
+    "static/css/main.ecc9f607.chunk.css",
+    "static/js/main.99011ed6.chunk.js"
+  ]
+}
