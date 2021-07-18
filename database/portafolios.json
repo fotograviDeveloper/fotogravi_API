@@ -63,5 +63,37 @@
                 }
             }
         ]
+    },
+    {"id":3,
+        "proyecto": "herreria",
+        "imgmin": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/miniaturas%20del%20portafolio%2Ftarjeta%20herreria-01.jpg?alt=media&token=7b012dc6-1364-4240-a675-fc2ab20c9042",
+        "desc": "proyecto1",
+        "link": "herreria ",
+        "contenido": [
+            {
+                "nombreDProyecto": "",
+                "imgPortada": "",
+                "textoALT": "",
+                "descripcionProyecto": "",
+                "imgBriefing": "",
+                "briefTXT": "",
+                "analisisMercado": "",
+                "problema": "",
+                "propuestaDiseño": "",
+                "imgLogo": "",
+                "colores": [
+                    {
+                        "color1": "",
+                        "color2": "",
+                        "color3": ""
+                    }
+                ],
+                "tipografia": "",
+                "imgVarLogo": "",
+                "implementacion": {
+                    "img1": ""
+                }
+            }
+        ]
     }
 ]

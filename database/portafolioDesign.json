@@ -1,160 +1,172 @@
 [
-
- { "id":1,
-"titulo":"Matte painting",
-    "imgMin":"https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/painting%2Fdama%20de%20la%20noche.png?alt=media&token=ed0ad264-b02c-4ff9-828d-2f11f1e66089",
-    "textoALT":"esta es la miniatura",
-    "desc":"proyecto2",
+  {
+    "id": 1,
+    "titulo": "Matte painting",
+    "imgMin": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/painting%2Fdama%20de%20la%20noche.png?alt=media&token=ed0ad264-b02c-4ff9-828d-2f11f1e66089",
+    "textoALT": "esta es la miniatura",
+    "desc": "proyecto2",
     "link": "mattepainting",
-    "contenido":[{
-    "nombreDProyecto": "Matte painting",
-    "imgPortada":"https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/painting%2Fterminado.jpg?alt=media&token=553a8fbb-c0e4-4e83-b005-1eb35000deec",
-    "textoALT":"esta imagen contiene un farol",
-    "icon1": "fas fa-palette",
-    "icon2": "fas fa-paint-brush",
-    "descripcionProyecto":"este portafolio es una pruueba para probar un nuevo enrutamiento ",
-  
-    "catalogo":[
-      
-
+    "contenido": [
       {
-        "id": 1,
-      "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/painting%2F75550369_2154889594812771_1515289879645257728_n.jpg?alt=media&token=5a1b8193-4784-4f42-8427-9ed100d64121",
-      "alt": "Esta imagen contiene una ilustración de Falcon y el capitan america"
-    },
-   
-    {
-        "id": 2,
-      "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/painting%2FMesa%20de%20trabajo%201.jpg?alt=media&token=e2d46c24-41ad-4935-af7d-dfbe4337b170",
-      "alt": "Esta imagen contiene una ilustración de ironman "
-    },
- {
-    "id": 3,
-      "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/painting%2Fdama%20de%20la%20noche.png?alt=media&token=ed0ad264-b02c-4ff9-828d-2f11f1e66089",
-      "alt": "Esta imagen contiene una ilustración de arturitu de la saga de Starwars"
-    },
-    {
-        "id": 4,
-      "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/painting%2FWW2.2.jpg?alt=media&token=0d7114a1-6e4e-46cc-a766-8ea237c5e983",
-      "alt": "Esta imagen contiene una ilustración de Darth vader fondo de pantalla para movil"
-    },
-    {
-        "id": 5,
-      "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/painting%2FWhatsApp%20Image%202020-09-15%20at%208.09.02%20PM.jpeg?alt=media&token=0564be2a-4506-4184-965d-49fbc97f82aa",
-      "alt": "Esta imagen contiene una ilustración de mascara de gases "
-    },
-    {
-        "id": 6,
-      "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/painting%2Fedicion.jpg?alt=media&token=d449f73a-3222-4b2b-a27f-90ba82728106",
-
-      "alt": "Esta imagen contiene una ilustración de darth vader de pie"
-    },
-
-    {
-        "id": 7,
-      "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/painting%2Fgatitod.jpg?alt=media&token=5a7fc6fa-7c06-49e0-a031-5495e7404ad1",
-
-      "alt": "Esta imagen contiene una ilustración de dart vader mascara"
-    },
-
-    {
-        "id": 8,
-      "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/painting%2Fterminado.jpg?alt=media&token=553a8fbb-c0e4-4e83-b005-1eb35000deec",
-
-      "alt": "Esta imagen contiene una ilustración de yoda"
-    },
-    {
-        "id": 9,
-      "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/painting%2Fosos.jpg?alt=media&token=b3a60224-8a47-42c0-95e6-f7b0a5da9d40",
-
-      "alt": "Esta imagen contiene una ilustración de yoda"
-    },
-    {
-        "id": 10,
-      "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/painting%2FLOBO.jpg?alt=media&token=6da8347d-8876-4dda-9517-e03dad8a4435",
-
-      "alt": "Esta imagen contiene una ilustración de yoda"
-    },
-    {
-      "id": 11,
-    "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/painting%2F77349039_800080803785923_7131841028058775552_n.png?alt=media&token=c9dc5a5a-f4ce-49a7-881e-e028ba09e7ad",
-
-    "alt": "Esta imagen contiene una ilustración de yoda"
-  }
-    ]
-
-
-}]},
-
- 
-{"id":2,
-  "titulo":"ILUSTRACION",
-      "imgMin":"https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/ilustracion%2Fradioactive.jpg?alt=media&token=428d476b-51c2-4016-a062-6cfa9023dd49",
-      "textoALT":"esta es la miniatura de ilustracion",
-      "desc":"proyecto2",
-      "link": "ilustration",
-      "contenido":[{
-      "nombreDProyecto": "ILUSTRACION",
-      "imgPortada":"https://images.pexels.com/photos/2911521/pexels-photo-2911521.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "textoALT":"esta imagen contiene una imagen de ilustracion",
-      "icon1":"fas fa-bezier-curve",
-      "icon2": "fas fa-pen-nib",
-      "descripcionProyecto":"este portafolio es una pruueba para probar un nuevo enrutamiento ",
-    
-      "catalogo":[
-        
-        {
-          "id": 1,
-        "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/ilustracion%2FILUSTRACION%20CAP%20Y%20FALCON_Mesa%20de%20trabajo%201.jpg?alt=media&token=c2469111-9929-412b-a746-47c5f9958467",
-        "alt": "Esta imagen contiene una ilustración de Falcon y el capitan america"
-      },
-     
-      {
-          "id": 2,
-        "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/ilustracion%2FIRON%20MAN.jpg?alt=media&token=2e454525-0789-4e7b-8493-30c538240a70",
-        "alt": "Esta imagen contiene una ilustración de ironman "
-      },
-   {
-      "id": 3,
-        "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/ilustracion%2Farturitu.jpg?alt=media&token=330a5e7a-bc77-40ab-a9aa-1cd0f2f004e4",
-        "alt": "Esta imagen contiene una ilustración de arturitu de la saga de Starwars"
-      },
-      {
-          "id": 4,
-        "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/ilustracion%2Ffondo%20de%20pantalla.jpg?alt=media&token=689ab572-66ab-4542-9c10-c6fe842a05e5",
-        "alt": "Esta imagen contiene una ilustración de Darth vader fondo de pantalla para movil"
-      },
-      {
-          "id": 5,
-        "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/ilustracion%2Fradioactive.jpg?alt=media&token=428d476b-51c2-4016-a062-6cfa9023dd49",
-        "alt": "Esta imagen contiene una ilustración de mascara de gases "
-      },
-      {
-          "id": 6,
-        "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/ilustracion%2Fvader%20terminado-02.jpg?alt=media&token=1908dc36-d655-4f5b-96ee-1a78d327ba6a",
-  
-        "alt": "Esta imagen contiene una ilustración de darth vader de pie"
-      },
-  
-      {
-          "id": 7,
-        "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/ilustracion%2Fvader%20terminado_Mesa%20de%20trabajo%201.jpg?alt=media&token=40e48125-6a9c-480d-9ea4-7f2b87c7ecf3",
-  
-        "alt": "Esta imagen contiene una ilustración de dart vader mascara"
-      },
-  
-      {
-          "id": 8,
-        "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/ilustracion%2Fyoda%201920x1080.jpg?alt=media&token=2b0296f1-108c-4db5-a812-cca934ae828f",
-  
-        "alt": "Esta imagen contiene una ilustración de yoda"
+        "nombreDProyecto": "Matte painting",
+        "imgPortada": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/painting%2Fosos.jpg?alt=media&token=b3a60224-8a47-42c0-95e6-f7b0a5da9d40",
+        "textoALT": "esta imagen contiene un farol",
+        "icon1": "fas fa-palette",
+        "icon2": "fas fa-paint-brush",
+        "descripcionProyecto": "este portafolio es una pruueba para probar un nuevo enrutamiento ",
+        "catalogo": [
+          {
+            "id": 1,
+            "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/painting%2F75550369_2154889594812771_1515289879645257728_n.jpg?alt=media&token=5a1b8193-4784-4f42-8427-9ed100d64121",
+            "alt": "Esta imagen contiene una ilustración de Falcon y el capitan america"
+          },
+          {
+            "id": 2,
+            "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/painting%2FMesa%20de%20trabajo%201.jpg?alt=media&token=e2d46c24-41ad-4935-af7d-dfbe4337b170",
+            "alt": "Esta imagen contiene una ilustración de ironman "
+          },
+          {
+            "id": 3,
+            "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/painting%2Fdama%20de%20la%20noche.png?alt=media&token=ed0ad264-b02c-4ff9-828d-2f11f1e66089",
+            "alt": "Esta imagen contiene una ilustración de arturitu de la saga de Starwars"
+          },
+          {
+            "id": 4,
+            "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/painting%2FWW2.2.jpg?alt=media&token=0d7114a1-6e4e-46cc-a766-8ea237c5e983",
+            "alt": "Esta imagen contiene una ilustración de Darth vader fondo de pantalla para movil"
+          },
+          {
+            "id": 5,
+            "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/painting%2FWhatsApp%20Image%202020-09-15%20at%208.09.02%20PM.jpeg?alt=media&token=0564be2a-4506-4184-965d-49fbc97f82aa",
+            "alt": "Esta imagen contiene una ilustración de mascara de gases "
+          },
+          {
+            "id": 6,
+            "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/painting%2Fedicion.jpg?alt=media&token=d449f73a-3222-4b2b-a27f-90ba82728106",
+            "alt": "Esta imagen contiene una ilustración de darth vader de pie"
+          },
+          {
+            "id": 7,
+            "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/painting%2Fgatitod.jpg?alt=media&token=5a7fc6fa-7c06-49e0-a031-5495e7404ad1",
+            "alt": "Esta imagen contiene una ilustración de dart vader mascara"
+          },
+          {
+            "id": 8,
+            "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/painting%2Fterminado.jpg?alt=media&token=553a8fbb-c0e4-4e83-b005-1eb35000deec",
+            "alt": "Esta imagen contiene una ilustración de yoda"
+          },
+          {
+            "id": 9,
+            "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/painting%2Fosos.jpg?alt=media&token=b3a60224-8a47-42c0-95e6-f7b0a5da9d40",
+            "alt": "Esta imagen contiene una ilustración de yoda"
+          },
+          {
+            "id": 10,
+            "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/painting%2FLOBO.jpg?alt=media&token=6da8347d-8876-4dda-9517-e03dad8a4435",
+            "alt": "Esta imagen contiene una ilustración de yoda"
+          },
+          {
+            "id": 11,
+            "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/painting%2F77349039_800080803785923_7131841028058775552_n.png?alt=media&token=c9dc5a5a-f4ce-49a7-881e-e028ba09e7ad",
+            "alt": "Esta imagen contiene una ilustración de yoda"
+          }
+        ]
       }
-    
-      ]
-  
-  
-  }]}
-  
-
-  
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "ILUSTRACION",
+    "imgMin": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/ilustracion%2Fradioactive.jpg?alt=media&token=428d476b-51c2-4016-a062-6cfa9023dd49",
+    "textoALT": "esta es la miniatura de ilustracion",
+    "desc": "proyecto2",
+    "link": "ilustration",
+    "contenido": [
+      {
+        "nombreDProyecto": "ILUSTRACION",
+        "imgPortada": "https://images.pexels.com/photos/301792/pexels-photo-301792.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "textoALT": "esta imagen contiene una imagen de ilustracion",
+        "icon1": "fas fa-bezier-curve",
+        "icon2": "fas fa-pen-nib",
+        "descripcionProyecto": "este portafolio es una pruueba para probar un nuevo enrutamiento ",
+        "catalogo": [
+          {
+            "id": 1,
+            "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/ilustracion%2FILUSTRACION%20CAP%20Y%20FALCON_Mesa%20de%20trabajo%201.jpg?alt=media&token=c2469111-9929-412b-a746-47c5f9958467",
+            "alt": "Esta imagen contiene una ilustración de Falcon y el capitan america"
+          },
+          {
+            "id": 2,
+            "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/ilustracion%2FIRON%20MAN.jpg?alt=media&token=2e454525-0789-4e7b-8493-30c538240a70",
+            "alt": "Esta imagen contiene una ilustración de ironman "
+          },
+          {
+            "id": 3,
+            "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/ilustracion%2Farturitu.jpg?alt=media&token=330a5e7a-bc77-40ab-a9aa-1cd0f2f004e4",
+            "alt": "Esta imagen contiene una ilustración de arturitu de la saga de Starwars"
+          },
+          {
+            "id": 4,
+            "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/ilustracion%2Ffondo%20de%20pantalla.jpg?alt=media&token=689ab572-66ab-4542-9c10-c6fe842a05e5",
+            "alt": "Esta imagen contiene una ilustración de Darth vader fondo de pantalla para movil"
+          },
+          {
+            "id": 5,
+            "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/ilustracion%2Fradioactive.jpg?alt=media&token=428d476b-51c2-4016-a062-6cfa9023dd49",
+            "alt": "Esta imagen contiene una ilustración de mascara de gases "
+          },
+          {
+            "id": 6,
+            "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/ilustracion%2Fvader%20terminado-02.jpg?alt=media&token=1908dc36-d655-4f5b-96ee-1a78d327ba6a",
+            "alt": "Esta imagen contiene una ilustración de darth vader de pie"
+          },
+          {
+            "id": 7,
+            "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/ilustracion%2Fvader%20terminado_Mesa%20de%20trabajo%201.jpg?alt=media&token=40e48125-6a9c-480d-9ea4-7f2b87c7ecf3",
+            "alt": "Esta imagen contiene una ilustración de dart vader mascara"
+          },
+          {
+            "id": 8,
+            "img": "https://firebasestorage.googleapis.com/v0/b/base-f3347.appspot.com/o/ilustracion%2Fyoda%201920x1080.jpg?alt=media&token=2b0296f1-108c-4db5-a812-cca934ae828f",
+            "alt": "Esta imagen contiene una ilustración de yoda"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "WEB DESIGN",
+    "imgMin": "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "textoALT": "esta es la miniatura del portafolio de web design",
+    "desc": "proyecto2",
+    "link": "Web-design",
+    "contenido": [
+      {
+        "nombreDProyecto": "Diseño y desarrollo web",
+        "imgPortada": "https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "textoALT": "esta imagen contiene un farol",
+        "icon1": "fas fa-laptop-code",
+        "icon2": "fas fa-file-code",
+        "descripcionProyecto": "este portafolio es una pruueba para probar un nuevo enrutamiento ",
+        "catalogo": [
+          {
+            "id": 1,
+            "img": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+            "alt": "Esta imagen contiene una ilustración de Falcon y el capitan america"
+          },
+          {
+            "id": 2,
+            "img": "https://user-images.githubusercontent.com/82213246/123323825-ad0b2280-d4fb-11eb-9dc0-a52d81475214.png",
+            "alt": "Esta imagen contiene una ilustración de ironman "
+          },
+          {
+            "id": 3,
+            "img": "https://user-images.githubusercontent.com/82213246/123323297-eb541200-d4fa-11eb-965a-a2eb13c3da92.png",
+            "alt": "Esta imagen contiene una ilustración de arturitu de la saga de Starwars"
+          }
+        ]
+      }
+    ]
+  }
 ]

@@ -29,17 +29,26 @@ let proyecto = await pool.query('SELECT * FROM portafolios ')
 
    router.get('/api/Design/portafolio/fotogravi/contenido', async (req, res) => {
     let contenido = await pool.query('SELECT * FROM contenido where id = 3 ')
+   let colores = await pool.query('SELECT * FROM `colores` WHERE `id` = 1')
     
-      res.json(contenido) 
+   res.json({"data":[contenido, colores]})
     
   });
     
   router.get('/api/Design/portafolio/soldare/contenido', async (req, res) => {
     let contenido = await pool.query('SELECT * FROM contenido where id = 4 ')
-    
-      res.json(contenido)
+    let colores = await pool.query('SELECT * FROM `colores` WHERE `id` = 2')
+      res.json({"data":[contenido, colores]})
     
   });
+  router.get('/api/Design/portafolio/portafolio3/contenido', async (req, res) => {
+    let contenido = await pool.query('SELECT * FROM contenido where id = 5 ')
+    let colores = await pool.query('SELECT * FROM `colores` WHERE `id` = 3')
+      res.json({"data":[contenido, colores]})
+    
+  });
+
+
     
 ///portafolio/Design/branding/soldare
 ///portafolio/Design/branding/fotogravi
@@ -70,6 +79,14 @@ router.get('/api/Design/mattepainting/catalogo', async (req, res) => {
     
     })
 
+//rutas para web
+router.get("/api/Design/Web-design", (req, res) => {
+    res.json(pDesign[2]['contenido'][0])
+})
+router.get('/api/Design/Web-design/catalogo', async (req, res) => {
+    res.json(pDesign[2]['contenido'][0]['catalogo'])
+    
+    })
 
 
 

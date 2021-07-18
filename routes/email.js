@@ -10,9 +10,9 @@ const pool = require("../database/database");
 //ruta por donde resivo los datos
 router.post('/Contacto/send', async function (req, res) {
    const {nombre, apellido, correo, telefono, asunto, mensaje} = req.body
-   var date= new Date(); //Obtienes la fecha
+   var date= new Date(); //Obtiene la fecha
    //Lo parseas para transformarlo
-  
+   
    
    const emailDt = {nombre, apellido, correo, telefono, asunto, mensaje, date}
 //envio de email
@@ -76,7 +76,7 @@ router.get('/app/API/new-emails/resividos', async function (req, res ) {
  let date= new Date
 console.log(date)
 let diaPrueba="2021-05-22"
-let consulta =  await pool.query("SELECT * FROM emails WHERE date <= ?", date);
+let consulta =  await pool.query("SELECT * FROM emails ");
 
 res.json(consulta);
 })
