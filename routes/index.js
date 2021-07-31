@@ -4,7 +4,6 @@ const path = require("path");
 const pool = require("../database/database");
 
 
-
 router.get('/', function (req, res) {
   res.sendFile(path.join(__dirname + './../public/p1.html'));
   //res.send("holis")  

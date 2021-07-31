@@ -3,7 +3,8 @@ const router = Router()
 const potrafolios =require("../database/portafolios.json")
 const pDesign = require("../database/portafolioDesign.json");
 const pool = require("../database/database");
-//sconst cors = require("cors")
+const jwt = require("jsonwebtoken")
+const cors = require("cors")
 
 
 //var ListaBlanca = ("http://localhost:3000" || "http://localhost:3001")
@@ -21,7 +22,9 @@ const pool = require("../database/database");
 */
 //rutas portafolios branding
 router.get('/api/Design/branding', async (req, res) => {
-let proyecto = await pool.query('SELECT * FROM portafolios ')
+    const user = {id: 2}
+    const token = jwt.sing( {user}, "6ETNH3SLDDFD4F4O9IABQ0CKJBD3YZPK")
+        let proyecto = await pool.query('SELECT * FROM portafolios ')
 
   res.json(proyecto)
 

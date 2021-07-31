@@ -15,8 +15,10 @@ app.set('json spaces', 2)
 //middlewares
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
-app.use(morgan('dev'))
-app.use(cors());
+app.use(morgan('dev'));
+var ListaBlanca = ("http://localhost:3000" || "https://fotogravi-design.com")
+
+app.use(cors(ListaBlanca));
 app.use(express.json(myConnection));
 
 //routes
