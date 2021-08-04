@@ -4,8 +4,6 @@ const cors = require("cors")
 const morgan = require ('morgan')
 const mysql = require ("mysql")
 const myConnection = require("express-myconnection");
-const { database } = require("./database/keys.js");
-const {sendControler} = require ("./controler/sendControler")
 //seting 
 app.set('appName', "FotograviAPI");
 app.set('port', process.env.PORT || 3001)

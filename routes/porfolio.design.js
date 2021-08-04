@@ -22,8 +22,7 @@ const cors = require("cors")
 */
 //rutas portafolios branding
 router.get('/api/Design/branding', async (req, res) => {
-    const user = {id: 2}
-    const token = jwt.sing( {user}, "6ETNH3SLDDFD4F4O9IABQ0CKJBD3YZPK")
+  
         let proyecto = await pool.query('SELECT * FROM portafolios ')
 
   res.json(proyecto)
