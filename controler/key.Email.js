@@ -1,7 +1,7 @@
 
 module.exports = {
     dataAuth:{
-        password:" vavgyktczxioymnt" ,//contraseña de correo gmail frrxboduzwtzbneu
+        password:"bzdu oedt vzsm dxsq" ,//contraseña de correo gmail frrxboduzwtzbneu
         username:"raulgarcesdesign@gmail.com"
     }
 }
