@@ -33,7 +33,7 @@ router.post('/Contacto/send', async function (req, res) {
 console.log('ready dor send emai     ' +  dataAuth.username);
 })
 const info = await transporter.sendMail({
-  from: `"fotogravi.com" ${emailDt.correo}`,
+  from: `"localhost3000" ${emailDt.correo}`, // aqui se cambia el domino
   to: "rauldejesusguadalupe@gmail.com",
   subject: `${asunto}`,
   html: `

@@ -7,8 +7,8 @@ const jwt = require("jsonwebtoken")
 const cors = require("cors")
 
 
-//var ListaBlanca = ("http://localhost:3000" || "http://localhost:3001")
-/*var corsOptions = {
+var ListaBlanca = ("http://localhost:3000" || "http://localhost:3001")
+var corsOptions = {
     origin: function(origin, callback){
      
             if(ListaBlanca.indexOf(origin) !== -1){
@@ -19,7 +19,7 @@ const cors = require("cors")
         }
     }
 
-*/
+
 //rutas portafolios branding
 router.get('/api/Design/branding', async (req, res) => {
   

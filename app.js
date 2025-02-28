@@ -1,34 +1,52 @@
 const express = require("express");
 const app = express();
-const cors = require("cors")
-const morgan = require ('morgan')
-const mysql = require ("mysql")
+const cors = require("cors");
+const morgan = require("morgan");
+const mysql = require("mysql");
 const myConnection = require("express-myconnection");
-//seting 
+
+// Configuración de la aplicación
 app.set('appName', "FotograviAPI");
-app.set('port', process.env.PORT || 3001)
-app.set('json spaces', 2)
+app.set('port', process.env.PORT || 3001);
+app.set('json spaces', 2);
 
+// Configuración de la conexión a la base de datos
+const dbOptions = {
+    host: "bqf63n1mfnkfl7mhbrcg-mysql.services.clever-cloud.com",
+    user: 'uzhk9diir1enw3vy',
+    password: "EmuX70bnj7vK2dlfle5D",
+    database: "bqf63n1mfnkfl7mhbrcg",
+    port: "3306"
 
-//middlewares
-app.use(express.urlencoded({extended:true}));
+};
+
+// Lista blanca de orígenes permitidos
+const listaBlanca = ['http://localhost:3000', 'https://fotogravi-design.com'];
+
+// Configuración de CORS
+const corsOptions = {
+  origin: function (origin, callback) {
+    if (listaBlanca.indexOf(origin) !== -1 || !origin) {
+      callback(null, true);
+    } else {
+      callback(new Error('Acceso no permitido por CORS'));
+    }
+  },
+};
+
+// Middlewares
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(morgan('dev'));
-var ListaBlanca = ("http://localhost:3000" || "https://fotogravi-design.com")
+app.use(cors(corsOptions));
+app.use(myConnection(mysql, dbOptions, 'single'));
 
-app.use(cors(ListaBlanca));
-app.use(express.json(myConnection));
-
-//routes
-
+// Rutas
 app.use(require('./routes/index'));
 app.use(require('./routes/porfolio.design'));
 app.use(require('./routes/TrabajosPortafolio'));
 app.use(require('./routes/email'));
-//static files
-
-
-//start server
-app.listen(app.get('port'), ()=>
-{console.log("server on port ", app.get('port'))
-} )
+// Iniciar el servidor
+app.listen(app.get('port'), () => {
+  console.log("Server on port", app.get('port'));
+});
